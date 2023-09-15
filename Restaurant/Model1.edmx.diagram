@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce3fb17193994ecd83388947da05d1b6" Name="Diagram1">
+        <EntityTypeShape EntityType="efremovModel.Category1" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="efremovModel.Discount1" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="efremovModel.Product1" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="efremovModel.ProductSell" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="efremovModel.Role1" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="efremovModel.Sell1" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="efremovModel.User1" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="efremovModel.FK_Product1_Category1" ManuallyRouted="false" />
+        <AssociationConnector Association="efremovModel.FK_Sell1_Discount1" ManuallyRouted="false" />
+        <AssociationConnector Association="efremovModel.FK_ProductSell_Product1" ManuallyRouted="false" />
+        <AssociationConnector Association="efremovModel.FK_ProductSell_Sell1" ManuallyRouted="false" />
+        <AssociationConnector Association="efremovModel.FK_User1_Role1" ManuallyRouted="false" />
+        <AssociationConnector Association="efremovModel.FK_Sell1_User1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
